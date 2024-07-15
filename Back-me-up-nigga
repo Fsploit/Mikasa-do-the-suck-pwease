@@ -1,11 +1,22 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
 
+wait(1);
+
+Notify({
+Description = "Obby but You're on a bike Has loaded.";
+Title = "VenoX";
+Duration = 5;
+});
+
+-- loader.lua 
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "FroZen Hub V1",
+    Title = "VenoX",
     SubTitle = "Obby but You're on a bike",
     TabWidth = 170,
     Size = UDim2.fromOffset(450, 225),
